@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(222, 232, 233);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    box-sizing: border-box;
+        padding: 10px;
+    
+        position: relative;
+        top: 0;
+        width: 100%;
+        background-color: cadetblue;
+        padding-bottom: 80px;
+    }
+
+    main{
+        height: 90vh;
+    }
+
+.meta-wrapper{
+    height: 300px;
+    margin-top: 120px;
+    margin-bottom: 25px;
+    display: flex;
+    border: 1px solid orange;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    left:35%;
+}
+
+.textpart{
+color:rgb(168, 38, 151);
+}
+.image{
+    border-right: 0.2px solid rgb(158, 156, 152) ;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.textpart{
+    padding-left: 10px;
+}

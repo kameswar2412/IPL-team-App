@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(222, 232, 233);
+    font-family: 'Roboto', sans-serif;
+}
+#left-side{
+    width: 30%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-right: 0.5px solid orange;
+    padding-left: 25px;
+}
+
+    .ipl-logo{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .team-logo{
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    img{
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    #add-btn button{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(22, 134, 209);
+        color: darkgray;
+    
+    }
+    .team-data{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+  
+    .player-info{
+        width: 60%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+
+    
+   
+    #text-par{
+        margin-top: 50px;
+    }
+    .team-player{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    
+   
+    
+    
+    
+    .player{
+
+       
+        margin: 10px;
+        text-align: center;
+        border: 1px solid ;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgb(0 0 0 / 30%);
+        cursor: pointer;
+        background-color: white;
+    }
+    p{
+        /* color: tomato; */
+    }
+    #player-photo{
+max-height: 210px;
+max-width: 210px;
+
+    }
+    #player-photo img{
+        width: 100%;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #icon-div{
+        max-width: 200px;
+    }
+    #icon-div img{
+        width: 100%;
+    }
+
+p{
+    text-transform: capitalize;
+}

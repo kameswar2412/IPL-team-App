@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title> IPL Cricket Teams</title>
+        <link href="home1.css" rel="stylesheet" />
+        <!-- <link href="" rel="stylesheet" /> -->
+
+        <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" 
+        integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" 
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+          <header>
+             <div class="topnav">
+                <div>
+                    <img id="logo-topbar" src="./images/logo.jpg">
+                </div>
+                <div>
+                <a class="active" href="home1.html">Home</a>
+                </div>
+                <div>
+                    <form>
+                        <input class="top-serach" type="text" id="myInput" placeholder=" "/>
+                        
+
+                    </form>
+                </div> 
+                <div>
+                    <button id="create-btn">add new team</button>
+                </div>
+             </div>
+          </header>
+          <main>
+            <div id="main-container">
+               
+                <form id="create-team" class="inactive-form">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                      </div>
+                    <div>
+                        <h5>Team Name</h5>
+                        <input id="teamName" class="login-input-fields" type="text" placeholder="Enter team name" name="teamname">
+                
+                    </div>
+               
+                <div>
+                    <h5>TOP BATSMAN</h5>
+                <input id="topBatsmen" class="login-input-fields" type="text" placeholder="Enter top batsman name" name="topBatsmen">
+                
+                </div>
+                <div>
+                    <h5>Top Bowler</h5>
+                <input id="topBowler" class="login-input-fields" type="text" placeholder="Enter top bowler name" name="topBowler">
+                </div>
+                <div>
+                    <h5>TOTAL NO OF PLAYERS</h5>
+                <input id="playerCount" class="login-input-fields" type="number" placeholder="Enter Total players" name="playerCount">
+                
+                </div>
+                <div>
+                    <h5> champoinshipWonCount</h5>
+                <input id="champoinshipWonCount" class="login-input-fields" type="number" placeholder="Total ChampoinshipWon Count  " name="champoinshipWonCount">
+                
+                </div>
+                <div>
+                    <h5>Team Logo URL</h5>
+                <input id="teamIcon" class="login-input-fields" type="text" placeholder="Enter logo url" name="url">
+                
+                </div>
+                
+                <button id="ADD-btn" type="submit">ADD</button>
+                </form>
+           
+
+              </div>
+          </main>
+          <footer>
+          </main>
+          <footer>
+              <div> Copyright © 2021 | Edyoda  </div>
+          </footer>
+          <script src="card.js" ></script>
+    </body>
+</html>
